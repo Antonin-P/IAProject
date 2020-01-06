@@ -1,0 +1,28 @@
+name: recommendation-api-rbm
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - pip
+  - setuptools
+  - wheel
+  - tqdm
+  - twine
+  - autopep8
+  - retrying
+  - pandas==0.25.2
+  - sqlalchemy
+  - psycopg2
+  - azure-storage
+  - pytest
+  - fastparquet
+  - pyyaml
+  - python-multipart
+  - python-snappy
+  - pip:
+    - torch==1.2.0
+    - cassandra-driver
+    - gunicorn
+    - mlflow
